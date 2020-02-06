@@ -28,4 +28,7 @@ There are 3 methods
    Uses 2 différent keys : public and private keys
    The public keys are shared but the private key must be kept secret
    the method uses a key excahnge algo ( the diffie hellman key exchange)
+   once this is done, the server sends a challenge to the client which, by resolving it, shows it has the private key
 1. Hashing
+
+   A hash consists on fixed length pieces of text that are encrypted in a way it can never be decrypted again 
