@@ -32,3 +32,5 @@ There are 3 methods
 1. Hashing
 
    A hash consists on fixed length pieces of text that are encrypted in a way it can never be decrypted again 
+   it is used to verify that the messages exchanged are not modified by a third party (hashmaps)
+   the message is sent thru ssh + hashed (MAC) so the server by hashing the message can hash the message and verify it is the same as the MAC
