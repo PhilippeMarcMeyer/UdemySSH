@@ -20,7 +20,9 @@ npm install npm
 There are 3 methods
 
 1. Symmetrical Encryption
-   One secret key for encryption and decrytion
+
+   Uses the same key for encryption and decrytion
+   
 1. Asymmetrical Encryption
 
 1. Hashing
