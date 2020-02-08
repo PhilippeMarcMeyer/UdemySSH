@@ -17,6 +17,14 @@ and then install node
 npm install npm
 ```
 
+To log in without ssh keys :
+
+in putty, enter the ip adress and start a new session
+login : root
+password : it has been sent by mail by the provider
+at your first attempt, the host asks you to change it to your special secret password : type the original and then the new password
+you are in
+
 There are 3 methods
 
 1. Symmetrical Encryption
