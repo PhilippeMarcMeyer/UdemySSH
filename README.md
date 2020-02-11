@@ -35,3 +35,18 @@ There are 3 methods
 1. Hashing
    Hashing is not meant to decrypt anything : the commands sent are encrypted to fixed length chunks that can never be decrypted again because (a a workmate once told me) the process alters the original in a way that it could if it were decrypted could correspond to    many many possible originals.
    it is used to verify that the messages exchanged are not modified by a third party (hashmaps) the message is sent thru ssh alonside a hash map (MAC) so the server by hashing the message can can compare the result with the hash map sent by the client ! the host has the same symmetric key, the package secret number and the MAC.
+   
+ So after the key exchange and the hashing the user got to identify himself
+ 2 ways :
+ 
+ 1. with a password
+ 1. with SSL keys
+   first : make a dir .shh on your computer 
+   then in command line : C:\.ssh>ssh-keygen -C "xxx.xxx@xxx.com"
+   Generating public/private rsa key pair.
+   Enter file in which to save the key (C:\Users\PhilippeMEYER/.ssh/id_rsa): C:/.ssh/id_rsa_digitalocean
+   Enter passphrase (empty for no passphrase):
+   Enter same passphrase again:
+   Your identification has been saved in C:/.ssh/id_rsa_digitalocean.
+   Your public key has been saved in C:/.ssh/id_rsa_digitalocean.pub.
+ 
