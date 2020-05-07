@@ -50,3 +50,4 @@ There are 3 methods
    Your identification has been saved in C:/.ssh/id_rsa_digitalocean.
    Your public key has been saved in C:/.ssh/id_rsa_digitalocean.pub.
  
+# and I don't have time enough to pursuit ...
